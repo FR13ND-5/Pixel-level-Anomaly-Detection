@@ -1,0 +1,12 @@
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+.vscode/
+
+data/*
+!data/README.md
+
+.DS_Store
