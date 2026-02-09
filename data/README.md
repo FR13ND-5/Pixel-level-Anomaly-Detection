@@ -6,7 +6,7 @@ Download from:
 https://www.mvtec.com/company/research/datasets/mvtec-ad/downloads
 
 Expected directory structure:
-
+```
 dataset/
 ├── carpet/
 ├── bottle/
