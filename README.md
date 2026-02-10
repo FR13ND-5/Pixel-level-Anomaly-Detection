@@ -1,5 +1,11 @@
 # Patch-wise Statistical Feature Encoding for Pixel-Level Anomaly Detection
 
+![GitHub Repo stars](https://img.shields.io/github/stars/FR13ND-5/Pixel-level-Anomaly-Detection)
+![Research](https://img.shields.io/badge/Project-Research%20Prototype-informational)
+![Python](https://img.shields.io/badge/Python-3.8%2B-orange)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.10%2B-red)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 This repository presents a **patch-wise statistical feature encoding (PSFE)** method for **pixel-level visual anomaly detection**, motivated by the failure of global feature aggregation to capture localized structural defects.
 
 This repository is intended as a **research prototype and companion implementation** for patch-level statistical anomaly detection.
@@ -10,6 +16,22 @@ The project includes:
 - Quantitative and qualitative evaluation on the **MVTec AD dataset**.
 
 ---
+## Table of Contents
+
+- [Motivation](#motivation)
+- [Dataset](#dataset)
+- [Repository Structure](#repository-structure)
+- [Baseline: Global Feature Aggregation](#baseline-global-feature-aggregation)
+- [Proposed Method: PSFE](#proposed-method-patch-wise-statistical-feature-encoding-psfe)
+- [Pixel-level Localization Performance](#pixel-level-localization-performance)
+- [Quantitative Evaluation](#quantitative-evaluation)
+- [Ablation Study](#ablation-study-effect-of-entropy)
+- [Key Observations](#key-observations)
+- [Future Work](#future-work)
+- [Acknowledgements](#acknowledgements)
+
+---
+
 
 ## Motivation
 
@@ -66,6 +88,8 @@ The repository is organized as follows:
 ```
 
 ---
+
+
 
 ## Baseline: Global Feature Aggregation
 ### Baseline Pipeline
